@@ -1,0 +1,78 @@
+.sidepanel{
+    width: 20vw;
+}
+.sportheader{
+    background: #afc8d5 !important;
+}
+.sportheader.mat-expanded:focus, .sportheader.mat-expanded:hover {
+    background: #afc8d5 !important;
+} 
+.contestheader{
+    background: #d4e6eb !important;
+}
+.contestheader.mat-expanded:focus, .contestheader.mat-expanded:hover {
+    background: #d4e6eb !important;
+} 
+.matchheader{
+    background: #ecf8fe  !important;
+}
+.matchheader.mat-expanded:focus, .matchheader.mat-expanded:hover {
+    background: #ecf8fe  !important;
+} 
+
+.mat-expansion-panel-header{
+    height: 5vh;
+}
+.mat-expansion-panel:not([class*=mat-elevation-z]) {
+    box-shadow: none !important;
+}
+ .mat-expansion-panel-body {
+    padding: 0 !important;
+  }
+  .mat-expansion-panel-spacing {
+    margin: 0;
+}
+.mat-mdc-table .mdc-data-table__header-row {
+    background: #f0f0f0;
+}
+.mat-mdc-table .mdc-data-table__row {
+    height: 38px !important;
+}
+.mat-mdc-table .mdc-data-table__header-row {
+    height: 38px !important;
+}
+
+.video-container {
+    position: relative;
+    width: 800px; /* Adjust as needed */
+    height: 450px; /* Adjust as needed */
+  }
+  
+  video {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .waveform-canvas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 72px;
+    width: 241px;
+
+
+  }
+  .controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+  }
+  
+  .controls button {
+    margin: 0 5px;
+  }
